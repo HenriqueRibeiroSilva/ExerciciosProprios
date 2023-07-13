@@ -1,0 +1,76 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt arial;
+    color: white;
+}
+header{
+    text-align: center;
+    text-shadow: 2px 2px 15px black;
+}
+
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    margin-left: left;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 15px black;
+}
+input#finalizar{
+    font-style: normal;
+    font: 12pt arial ;
+    margin-bottom: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+input#limpar{
+    font-style: normal;
+    font: 12pt arial ;
+    margin-bottom: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+input#adicionar{
+    font-style: normal;
+    font: 12pt arial ;
+    margin-bottom: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+div{
+    text-align: center;
+}
+select{
+    text-align: center;
+    margin-left: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    font: normal 13.5pt arial
+    
+}
+section#res{
+  margin-top: 13px;
+  text-align: center;
+}
+p#txt003{
+    padding: 38px;;
+}
+section#link{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    margin-top: 15px;
+    padding: 1px;
+}

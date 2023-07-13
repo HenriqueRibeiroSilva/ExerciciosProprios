@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regra de três simples</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Fómula Rápida</h1>
+    <section id="txt01">
+        <h2><strong>Regra de três simples</strong></h2>
+        <div id="divbotton">
+            <input type="number" name="num01" id="num01" oninput="updateRuleOfThree()">
+            --- <input type="number" name="num02" id="num02" oninput="updateRuleOfThree()">
+            <br><input type="text" name="variavel1" id="variavel1" oninput="updateRuleOfThree()">
+            --- <input type="text" name="variavel2" id="variavel2" oninput="updateRuleOfThree()">
+            <br><button class="button" id="botão" onclick="Resolver()"> Resolver</button>
+            <button class="button" id="botão" onclick="Clean()"> Limpar</button>
+        </div>
+        <div id="ruleOfThree"><br></div> 
+    </section>
+    <section id="txt02">
+        <div>Resolução:</div>
+        <div id="res"></div>
+    </section>
+    <!-- <section id="link">
+        Confira outro exercio👉<a href="../Analisador de numeros/modelo.html" id="link" target="_blank">AQUI</a>👈
+    </section> -->
+    <!-- <section id="redessociais">
+        <footer id="redessociais">
+            Redes:
+            <button id="redessociais"><a href="https://www.instagram.com/theus_hrs/" id="instagram" target="_blank"><img src="icone-instagram-30.png" alt="Logo Instragram" id="redessociais"></a></button>
+            <button id="redessociais"><a href="https://www.facebook.com/matheus.henriqueribeirosilva" target="_blank"><img src="logo-facebook-30.png" alt="Logo Facebook" id="redessociais"></a></button>
+            Apoio:
+            <button id="redessociais"><a href="https://github.com/gustavoguanabara" target="_blank"><img src="log-github-30.png" alt="Logo GitHub" id="redessociais"></a></button>
+            <button id="redessociais"><a href="https://www.youtube.com/@CursoemVideo" target="_blank"><img src="logo-youtube-30.png" alt="logo Youtube" id="redessociais"></a></button>
+        </footer>
+    </section>   -->
+    <footer id="HenriqueSilva">
+        <p>&copy;HenriqueSilva</p>
+    </footer>
+    
+    <script src="Script.js"></script>
+</body>
+</html>

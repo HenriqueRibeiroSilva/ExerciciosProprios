@@ -1,0 +1,195 @@
+section#txt01{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    background: white;
+    text-align: center;
+    padding: 30px;
+    font: normal 16pt arial;
+    margin-left: center;
+    
+}
+section#txt02{
+    justify-content: center;
+    background: white;
+    padding: 10px;
+    width: 545px;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
+    margin-top: 13px;
+}
+section{
+    width: 500px;
+    text-decoration: none;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-left: left;
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font: normal 30pt arial;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+    color: white;
+}
+h2{
+    font: normal 18pt arial;
+}
+
+footer#HenriqueSilva{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.638);
+}
+
+img{
+    margin-top: 10px;
+}
+input#num01{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+input#num02{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+input#variavel1{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input#variavel2{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+div#ruleOfThree{
+    margin-top: 15px;
+    color: #468eec;
+    /* text-shadow: 1px 1px 1px black; */
+}
+section#link{
+    width: 545px;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    margin-top: 15px;
+    padding: 10px;
+}
+a#link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+a#link:active{
+    color: #468eec;
+}
+a#link::focus-inner{
+    color: purple;
+}
+
+/* -------------------Botôes de resolver e limpar------------------*/
+
+button#botão {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(18, 18, 18, 0.155);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+button#botão:hover {
+    background-color: rgb(240, 241, 244);
+    box-shadow: 0px 2px 8px rgb(0, 0, 0);
+    color: #000000;
+    transform: translateY(-7px);
+}
+
+button#botão:active {
+    transform: translateY(-1px);
+}
+
+    
+/* ------------------------Redes Socias------------------------ */
+
+/* footer#redessociais{
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+section#redessociais{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
+    font: normal 12pt arial;
+    color: black;
+    margin-top: 15px;
+    padding: 5px;
+}
+   
+button#redessociais{
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 10px 15px;
+    border: unset;
+    border-radius: 15px;
+    color: #000000;
+    z-index: 1;
+    background: #ffffff;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 450ms;
+    overflow: hidden;
+}
+
+button#redessociais::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 10px;
+    background-color: #b5b5b5;
+    z-index: -1;
+    transition: all 450ms
+}
+button#redessociais:hover::before {
+    width: 100%;
+} */
+
