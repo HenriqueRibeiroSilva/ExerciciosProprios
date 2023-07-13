@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #fff;
+    --cor1: #468eec;
+    --cor2: #503EF7;
+    --cor3: #2542d5;
+    --cor4: #000;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+}
+
+/* BODY */
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+/* HEADER */
+
+header{
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    font-size: 1.3em;
+    color: var(--cor0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* MAIN (HEADER) */
+
+.main-header{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+
+    max-width: 800px;
+    min-width: 150px;
+
+    margin: auto;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+/* MAIN (BOTTOM) */
+
+.main-bottom{
+    background-color: var(--cor0);
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+
+    max-width: 800px;
+    min-width: 150px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+/* FOOTER */
