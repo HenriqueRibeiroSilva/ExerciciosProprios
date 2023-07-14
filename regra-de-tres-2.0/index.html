@@ -17,34 +17,37 @@
         <!-- INPUT - NUMBER-->
         <section class="input-number">
             <div class="num-cima">
-                <input type="number" class="num001" oninput="mostrador()">
-                --- <input type="number" class="num002" oninput="mostrador()">
+                <input type="number" class="num001" id="num001"   oninput="updateRuleOfThree()">
+                --- <input type="number" class="num002" id="num002" oninput="updateRuleOfThree()">
             </div>
+
             <div class="num-baixo">
-                <br><input type="number" class="num003" oninput="mostrador()">
-                --- <input type="number" class="num004" oninput="mostrador()">
+                <br><input type="text" class="variavel1" id="variavel1" oninput="updateRuleOfThree()">
+                --- <input type="text" class="variavel2" id="variavel2" oninput="updateRuleOfThree()">
             </div>
         </section>
 
         <!-- INPUT - BUTTON -->
         <section class="input-button">
-            <button class="button-resolver"> Resolver </button>
-            <button class="button-limpar"> Limpar </button>
+            <button class="button-resolver" onclick="resolver()"> Resolver </button>
+            <button class="button-limpar" onclick="limpar()"> Limpar </button>
         </section>
 
         <!-- MOSTRADOR -->
-        <section class="mostrador"><br></section>
+        <div class="mostrador" id="mostrador"><br></div>
     </main>
 
     <!-- RESOLUÇAÕ -->
     <main class="main-bottom">
-        <h2>Resolução</h2>
+        <p>Resolução</p>
+        <div class="res" id="res"></div>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>Produzido por @HenriqueSilva</p>
+        <p>Produzido por &copy;HenriqueSilva</p>
     </footer>
+    
     <script src="regra-de-tres2.0.js"></script>
 </body>
 </html>

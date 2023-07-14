@@ -49,7 +49,7 @@ main.main-header{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 650px;
+    max-width: 550px;
     min-width: 300px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -63,7 +63,7 @@ main.main-header{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
 }
 
-main.main-header>section.input-number>div.num-cima{
+div.num-cima{
     margin-top: 10px;
 }
 
@@ -81,22 +81,28 @@ input.num002{
     border-radius: 10px;
 }
 
-main.main-header>section.input-number>div.num-baixo{
+div.num-baixo{
     margin-bottom: 30px;
 }
 
-input.num003{
+input.variavel1{
     width: 170px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
 }
 
-input.num004{
+input.variavel2{
     width: 170px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
+}
+
+div.mostrador{
+    margin-top: 15px;
+    color: var(--cor1);
+    font-size: 1.5em;
 }
 
 /* INPUT-BUTTOM */
@@ -106,12 +112,14 @@ button{
     color: var(--cor0);
 
     margin: auto;
-    padding: 10px 25px 10px 25px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 30px;
 
     border-radius: 10px;
-    border-style: hidden;
-
+    
     font-size: 1em;
+    font-weight: bolder;
 
     cursor: pointer;
     outline: none;
@@ -124,12 +132,9 @@ button{
 button:hover{
     background-color: var(--cor2);
 
-    padding: 11px 26px 11px 26px;
-}
+    transform: translateY(-7px);
 
-main.main-header>section.mostrator{
-    margin-top: 15px;
-    color: var(--cor1);
+    box-shadow: 0px 2px 8px rgb(0, 0, 0);
 }
 
 /* MAIN (BOTTOM) */
@@ -138,13 +143,13 @@ main.main-bottom{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 650px;
+    max-width: 550px;
     min-width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
     
     margin: auto;
-    margin-top: 30px;
+    margin-top: 13px;
     margin-bottom: 30px;
 
     text-align: center;
@@ -152,6 +157,12 @@ main.main-bottom{
     border-radius: 15px;
 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+
+div.res{
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -164,5 +175,5 @@ body>footer{
     font-size: .8em;
 
     padding: 5px;
-    margin-top: 174px;
+    margin-top: 173px;
 }
