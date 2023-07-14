@@ -32,6 +32,10 @@ body{
 /* HEADER */
 
 header{
+    max-width: 550px;
+    min-width: 150px;
+    margin: auto;
+
     font-family: var(--fonte-padrao);
     font-weight: bolder;
     font-size: 1.3em;
@@ -50,7 +54,7 @@ main.main-header{
     font-family: var(--fonte-padrao);
 
     max-width: 550px;
-    min-width: 300px;
+    min-width: 150px;
     padding-top: 10px;
     padding-bottom: 30px;
 
@@ -68,14 +72,18 @@ div.num-cima{
 }
 
 input.num001{
-    width: 170px;
+    margin: auto;
+
+    width: 90px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
 }
 
 input.num002{
-    width: 170px;
+    margin: auto;
+
+    width: 90px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
@@ -86,20 +94,26 @@ div.num-baixo{
 }
 
 input.variavel1{
-    width: 170px;
+    margin: auto;
+
+    width: 90px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
 }
 
 input.variavel2{
-    width: 170px;
+    margin: auto;
+
+    width: 90px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
 }
 
 div.mostrador{
+    margin: auto;
+
     margin-top: 15px;
     color: var(--cor1);
     font-size: 1.5em;
@@ -113,7 +127,7 @@ button{
 
     margin: auto;
     margin-bottom: 15px;
-    width: 150px;
+    width: 120px;
     height: 30px;
 
     border-radius: 10px;
@@ -144,7 +158,7 @@ main.main-bottom{
     font-family: var(--fonte-padrao);
 
     max-width: 550px;
-    min-width: 300px;
+    min-width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -160,6 +174,8 @@ main.main-bottom{
 }
 
 div.res{
+    margin: auto;
+
     margin-top: 10px;
     font-size: 1.3em;
     text-align: center;
@@ -168,6 +184,8 @@ div.res{
 /* FOOTER */
 
 body>footer{
+    margin: auto;
+
     background-color: var(--cor0);
     color: var(--cor4);
 
