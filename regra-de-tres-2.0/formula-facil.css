@@ -78,6 +78,49 @@ input.num002{
     border-radius: 10px;
 }
 
+/* INPUT-BUTTOM */
+
+button.button-resolver{
+    background-color: var(--cor1);
+
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-size: 1em;
+
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+
+    transition: .3s;
+}
+
+button.button-resolver:hover{
+    background-color: var(--cor2);
+
+    padding: 11px 26px 11px 26px;
+}
+
+button.button-limpar{
+    background-color: var(--cor1);
+    
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-size: 1em;
+
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
 /* MAIN (BOTTOM) */
 
 .main-bottom{
