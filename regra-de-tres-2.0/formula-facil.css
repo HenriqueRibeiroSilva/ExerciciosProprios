@@ -51,6 +51,7 @@ header{
 
     max-width: 800px;
     min-width: 150px;
+    padding-top: 10px;
 
     margin: auto;
 
@@ -59,10 +60,27 @@ header{
     border-radius: 15px;
 }
 
+.main-header>section>div.num-cima{
+    margin-top: 30px;
+}
+
+input.num001{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input.num002{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
 /* MAIN (BOTTOM) */
 
 .main-bottom{
-    background-color: var(--cor0);
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
@@ -77,4 +95,30 @@ header{
     border-radius: 15px;
 }
 
+.main-header>section>div.num-baixo{
+    margin-bottom: 30px;
+}
+
+input.num003{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input.num004{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
 /* FOOTER */
+
+footer{
+    background-color: var(--cor0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}

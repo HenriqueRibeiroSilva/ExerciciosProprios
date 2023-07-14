@@ -11,14 +11,18 @@
         <h1>Formula Facil</h1>
     </header>
     <main class="main-header">
-        <h2>Regra de Três Simples</h2>
+        <h2 class="main-header">Regra de Três Simples</h2>
     
         <!-- INPUT - NUMBER-->
         <section class="input-number">
-            <input type="number" class="num001" oninput="mostrador()">
-            --- <input type="number" class="num002" oninput="mostrador()">
-            <br><input type="number" class="num003" oninput="mostrador()">
-            --- <input type="number" class="num004" oninput="mostrador()">
+            <div class="num-cima">
+                <input type="number" class="num001" oninput="mostrador()">
+                --- <input type="number" class="num002" oninput="mostrador()">
+            </div>
+            <div class="num-baixo">
+                <br><input type="number" class="num003" oninput="mostrador()">
+                --- <input type="number" class="num004" oninput="mostrador()">
+            </div>
         </section>
 
         <!-- INPUT - BUTTON -->
@@ -34,6 +38,8 @@
     <main class="main-bottom">
         <h2>Resolução</h2>
     </main>
+
+    <!-- FOOTER -->
 
     <footer>
         <p>Produzido por @HenriqueSilva</p>
