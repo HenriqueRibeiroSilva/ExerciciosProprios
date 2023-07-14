@@ -82,6 +82,7 @@ input.num002{
 
 button.button-resolver{
     background-color: var(--cor1);
+    color: var(--cor0);
 
     margin: auto;
     padding: 10px 25px 10px 25px;
@@ -107,6 +108,7 @@ button.button-resolver:hover{
 
 button.button-limpar{
     background-color: var(--cor1);
+    color: var(--cor0);
     
     margin: auto;
     padding: 10px 25px 10px 25px;
@@ -120,6 +122,14 @@ button.button-limpar{
     outline: none;
 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+
+    transition: .3s;
+}
+
+button.button-limpar:hover{
+    background-color: var(--cor2);
+
+    padding: 11px 26px 11px 26px;
 }
 /* MAIN (BOTTOM) */
 
