@@ -52,6 +52,7 @@ header{
     max-width: 800px;
     min-width: 150px;
     padding-top: 10px;
+    padding-bottom: 30px;
 
     margin: auto;
 
@@ -60,9 +61,6 @@ header{
     border-radius: 15px;
 }
 
-.main-header>section>div.num-cima{
-    margin-top: 30px;
-}
 
 input.num001{
     width: 170px;
@@ -76,76 +74,6 @@ input.num002{
     height: 20px;
     text-align: center;
     border-radius: 10px;
-}
-
-/* INPUT-BUTTOM */
-
-button.button-resolver{
-    background-color: var(--cor1);
-    color: var(--cor0);
-
-    margin: auto;
-    padding: 10px 25px 10px 25px;
-
-    border-radius: 10px;
-    border-style: hidden;
-
-    font-size: 1em;
-
-    cursor: pointer;
-    outline: none;
-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
-
-    transition: .3s;
-}
-
-button.button-resolver:hover{
-    background-color: var(--cor2);
-
-    padding: 11px 26px 11px 26px;
-}
-
-button.button-limpar{
-    background-color: var(--cor1);
-    color: var(--cor0);
-    
-    margin: auto;
-    padding: 10px 25px 10px 25px;
-
-    border-radius: 10px;
-    border-style: hidden;
-
-    font-size: 1em;
-
-    cursor: pointer;
-    outline: none;
-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
-
-    transition: .3s;
-}
-
-button.button-limpar:hover{
-    background-color: var(--cor2);
-
-    padding: 11px 26px 11px 26px;
-}
-/* MAIN (BOTTOM) */
-
-.main-bottom{
-    background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
-
-    max-width: 800px;
-    min-width: 150px;
-
-    margin: auto;
-    margin-top: 30px;
-
-    text-align: center;
-
-    border-radius: 15px;
 }
 
 .main-header>section>div.num-baixo{
@@ -165,6 +93,53 @@ input.num004{
     text-align: center;
     border-radius: 10px;
 }
+
+/* INPUT-BUTTOM */
+
+button{
+    background-color: var(--cor1);
+    color: var(--cor0);
+
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-size: 1em;
+
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+
+    transition: .3s;
+}
+
+button:hover{
+    background-color: var(--cor2);
+
+    padding: 11px 26px 11px 26px;
+}
+
+/* MAIN (BOTTOM) */
+
+.main-bottom{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+
+    max-width: 800px;
+    min-width: 150px;
+
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
 /* FOOTER */
 
 footer{
