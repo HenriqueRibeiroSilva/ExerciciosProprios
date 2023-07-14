@@ -45,12 +45,12 @@ header{
 
 /* MAIN (HEADER) */
 
-.main-header{
+main.main-header{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 800px;
-    min-width: 150px;
+    max-width: 650px;
+    min-width: 300px;
     padding-top: 10px;
     padding-bottom: 30px;
 
@@ -59,8 +59,13 @@ header{
     text-align: center;
 
     border-radius: 15px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
 }
 
+main.main-header>section.input-number>div.num-cima{
+    margin-top: 10px;
+}
 
 input.num001{
     width: 170px;
@@ -76,7 +81,7 @@ input.num002{
     border-radius: 10px;
 }
 
-.main-header>section>div.num-baixo{
+main.main-header>section.input-number>div.num-baixo{
     margin-bottom: 30px;
 }
 
@@ -122,15 +127,22 @@ button:hover{
     padding: 11px 26px 11px 26px;
 }
 
+main.main-header>section.mostrator{
+    margin-top: 15px;
+    color: var(--cor1);
+}
+
 /* MAIN (BOTTOM) */
 
-.main-bottom{
+main.main-bottom{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 800px;
-    min-width: 150px;
-
+    max-width: 650px;
+    min-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -138,15 +150,19 @@ button:hover{
     text-align: center;
 
     border-radius: 15px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
 }
 
 /* FOOTER */
 
-footer{
+body>footer{
     background-color: var(--cor0);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    color: var(--cor4);
+
     text-align: center;
-    align-items: center;
+    font-size: .8em;
+
+    padding: 5px;
+    margin-top: 174px;
 }
