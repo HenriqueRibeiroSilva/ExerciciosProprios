@@ -49,8 +49,8 @@ main.main-header{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 550px;
-    min-width: 300px;
+    max-width: 350px;
+    min-width: 150px;
     padding-top: 10px;
     padding-bottom: 30px;
 
@@ -67,6 +67,14 @@ div.num-cima{
     margin-top: 10px;
 }
 
+div.num-cima>p{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+}
+
 input.num001{
     width: 170px;
     height: 20px;
@@ -79,6 +87,7 @@ input.num002{
     height: 20px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 div.num-baixo{
@@ -143,8 +152,8 @@ main.main-bottom{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 
-    max-width: 550px;
-    min-width: 300px;
+    max-width: 350px;
+    min-width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -175,5 +184,5 @@ body>footer{
     font-size: .8em;
 
     padding: 5px;
-    margin-top: 173px;
+    margin-top: 193px;
 }

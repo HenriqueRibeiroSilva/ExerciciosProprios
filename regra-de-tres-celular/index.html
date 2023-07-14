@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Facil</title>
+    <link rel="stylesheet" href="formula-facil.css">
+    <link rel="shortcut icon" href="/regra-de-tres-2.0/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Formula Facil</h1>
+    </header>
+    <main class="main-header">
+        <h2 class="main-header">Regra de Três Simples</h2>
+    
+        <!-- INPUT - NUMBER-->
+        <section class="input-number">
+            <div class="num-cima">
+                <input type="number" class="num001" id="num001"   oninput="updateRuleOfThree()">
+                <br><input type="number" class="num002" id="num002" oninput="updateRuleOfThree()">
+                <p>X</p>
+            </div>
+
+            <div class="num-baixo">
+                <input type="text" class="variavel1" id="variavel1" oninput="updateRuleOfThree()">
+                <br><input type="text" class="variavel2" id="variavel2" oninput="updateRuleOfThree()">
+            </div>
+        </section>
+
+        <!-- INPUT - BUTTON -->
+        <section class="input-button">
+            <button class="button-resolver" onclick="resolver()"> Resolver </button>
+            <br><button class="button-limpar" onclick="limpar()"> Limpar </button>
+        </section>
+
+        <!-- MOSTRADOR -->
+        <div class="mostrador" id="mostrador"><br></div>
+    </main>
+
+    <!-- RESOLUÇAÕ -->
+    <main class="main-bottom">
+        <p>Resolução</p>
+        <div class="res" id="res"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Produzido por &copy;HenriqueSilva</p>
+    </footer>
+    
+    <script src="regra-de-tres2.0.js"></script>
+</body>
+</html>
