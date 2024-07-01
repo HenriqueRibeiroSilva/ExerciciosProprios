@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
-    <script src="script_teste.js"></script>
-    <style>
-        body{
-            background-color: lightgray;
-        }
-    </style>
+    <title>Document</title>
 </head>
 <body>
-        <header>
-            <h1>Teste de JavaScript</h1>
-        </header>
-        <main>
-            <nav>
-                <input type="button" value="Aperte aqui" id="press" onclick="clicar()">
-                <input type="button" value="Frase anterior" id="fraselimpa" onclick="voltar()">
-            </nav>
-            <p id="fraseteste">Frase de teste!</p>
-        </main>
+    <form action="/pagina_processa_dados_do forms" method="post">
+        <fieldset>
+            <legend>Dados Gerais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" minlength="3" id="nome">
+
+            <label for="data_de_nascimento">Data de nascimento</label>
+            <input type="date" minlength="3" id="data_de_nascimento">
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="endereço">Tipo:</label>
+            <select  id="tipo_endereço">
+                <option value="">Selecione</option>
+                <option value="">Rua</option>
+                <option value="">Avenida</option>
+                <option value="">Condominio</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Finalizar</legend>
+            <button type="submit">Enviar Formulário</button>
+            <button type="reset">Limpar formulário</button>
+        </fieldset>
+    </form>
 </body>
 </html>
