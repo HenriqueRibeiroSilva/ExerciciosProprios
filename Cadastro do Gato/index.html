@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadatro Do Gato - SDTS</title>
+    <link rel="stylesheet" href="cad-gato.css">
+</head>
+<body>
+    <Header>
+        <div id="div-h1">
+            <h1>Força Aérea Brasileira</h1>
+            <p>Asas que protegem o Brasil</p>
+        </div>
+        <div id="div-h2">
+            <h2>GRUPAMENTO DE APOIO - SJ</h2>
+        </div>
+    </Header>
+    <main>
+        <div id="div-h3">
+            <h3>Cadastro Unico do Efetivo Do Gato</h3>
+        </div>
+        <div id="div-form">
+                    <fieldset>
+                        <legend>INFORMAÇÕES PESSOAIS</legend>
+                        <form action="cadastro.php" method="get">
+                            <label for="id-input-nome">Nome:</label>
+                            <input type="text" name="nome" id="id-input-nome"  required minlength="3">
+
+                            <label for="id-input-vulgo">Vulgo:</label>
+                            <input type="text" name="vulgo" id="id-input-vulgo"  required minlength="3">
+
+                            <label for="id-input-idade">Idade:</label>
+                            <input type="number" name="idade" id="id-input-idade"  required minlength="2" min="18" max="99">
+                              <br>
+                            <label for="id-input-saram">Saram:</label>
+                            <input type="number" name="saram" id="id-input-saram"  required minlength="7" maxlength="7">
+                          
+                            <label for="id-input-seção">Seção:</label>
+                            <input type="text" name="seção" id="id-input-seção"  required minlength="2">
+                        </form>
+                    </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>TERMOS DE RESPONSABILIDADE</legend>
+                <p class="termos">
+                    Não nos responsabilizamos pelos atos cometidos em virtude do gato, Independentemente da motivação e horário (durante expediente ou pós expediente). Cabe a própria pessoa o método e planejamento do gato em questão, é possivel solicitar ajuda de terceiros caso aja nescessidade. 
+
+                    <p class="termos"> Os item adquiridos com o gato são somente para uso próprio, sendo proíbida a venda a terceiros, com exceção para quando os valores arrecadados forem revertidos em refrigerantes para o almoço ou churrascos para o efetivo cadrastrado
+                    </p>
+
+                    <p class="termos">Fica acordado que em caso de flagrante por um superior, a pessoa se responsabiliza 100% (cem por cento) dos atos cometidos, não delatando companheiros, caso tambem estejam envolvidos.</p>
+                </p>
+
+               <input type="button" value="Aceito os termos" onclick="aceito()" class="button">
+               <input type="button" value="Recuso os termos" onclick="recuso()" class="button">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <input type="submit" value="Seja oque Deus quiser - ENVIAR" onclick="enviarform()" class="button">
+                <input type="reset" value="Sou bizonho e errei - LIMPAR" onclick="limparform()" class="button">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>RESPONSAVEIS GEREL DO GATO - SDTS</legend>
+                <P>
+                    CB BLM ALEXSANDRO - SMT
+                    <p class="tel">Tel: (12) 981323244</p> 
+                    <br>
+                    CB BLM MAKOTO - SMT
+                    <p class="tel">Tel: (12) 991019546</p> 
+                </P>
+                <p class="termos">
+                    Em caso de duvida ou pane na execução entrar em contato com os responsaveis legais.
+                </p>
+            </fieldset>
+        </div>
+    </main>
+</body>
+<script src="jsGato.js"></script>
+</html>

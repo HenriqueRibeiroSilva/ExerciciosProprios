@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(45, 45, 245);
+}
+
+header>#div-h1>h1{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 2.5em;
+}
+
+header>#div-h2{
+    margin-top: 15px;
+    background-color: rgb(88, 88, 248);
+    padding: 10px;
+}
+
+header>#div-h2>h2{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+header>#div-h1>p{
+    color: white;
+    text-align: center;
+}
+
+/* MAIN */
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+h3{
+    text-align: left;
+    margin: 20px;
+}
+
+fieldset{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+
+}
+input{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.button{
+    padding: 5px;
+    background-color: white;
+}
+
+.termos{
+    text-align: justify;
+    font-weight: 500;
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+.tel{
+    font-size: 0.8em;
+}
